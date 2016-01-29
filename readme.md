@@ -69,4 +69,9 @@
 
 ### 16、点击去掉阴影背景
     -webkit-tap-highlight-color: rgba(0,0,0,0);
+    
+### 17、禁止长按 a，img 标签长按出现菜单栏
+    a, img {
+        -webkit-touch-callout: none; /*禁止长按链接与图片弹出菜单*/
+    }
 
