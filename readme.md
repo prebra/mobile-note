@@ -74,4 +74,9 @@
     a, img {
         -webkit-touch-callout: none; /*禁止长按链接与图片弹出菜单*/
     }
+    
+### 18、隐藏滚动条
+    ul::-webkit-scrollbar {
+        display: none;
+    }
 
