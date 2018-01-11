@@ -80,3 +80,6 @@
         display: none;
     }
 
+### 19、移动端active伪类无效
+    document.body.addEventListener('touchstart', function () {})
+    
